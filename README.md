@@ -21,7 +21,7 @@ Technologies Used:
 
 ## System Pipeline
 
-The system operates in real time by continuously transmitting and receiving FMCW radar signals using a USRP-based radar setup. The received signals are processed to generate range information and extract motion-related characteristics of targets within the sensing area.
+The system operates in real time by continuously transmitting and recieving FMCW radar signals using a USRP-based radar setup. The received signals are processed to generate range information and extract motion-related characteristics of targets within the sensing area.
 
 The processed radar data undergoes signal conditioning and feature extraction to capture patterns associated with different human activities. These features are then passed to trained machine learning models that perform occupancy detection and activity classification.
 
